@@ -27,3 +27,24 @@ This project generates unique email addresses for students based on their names 
 - **`output_files/`**: Folder where the output CSV, TSV, JSON, and JSONL files are stored.
 
    ## **Project Structure:**
+
+  ```
+ student-email-generator/
+│
+├── README.md
+├── constraints.py
+├── functions.py
+├── main.py
+├── student_logs.log
+│
+├── input_files/
+│   └── Test Files.xlsx (place your Excel file here)
+│
+└── output_files/
+    ├── students_a.csv
+    ├── students_a.tsv
+    ├── students_b.csv
+    ├── students_b.tsv
+    ├── shuffled_students_a.jsonl
+    └── shuffled_students_b.jsonl
+```
