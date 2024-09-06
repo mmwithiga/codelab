@@ -28,7 +28,7 @@ This project generates unique email addresses for students based on their names 
 
    ## **Project Structure:**
 
-  ```
+```
  student-email-generator/
 │
 ├── README.md
