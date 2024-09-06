@@ -25,3 +25,5 @@ This project generates unique email addresses for students based on their names 
 - **`student_logs.log`**: Log file that records computations and results.
 - **`input_files/`**: Folder containing the input Excel files.
 - **`output_files/`**: Folder where the output CSV, TSV, JSON, and JSONL files are stored.
+
+   ## **Project Structure:**
