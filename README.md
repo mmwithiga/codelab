@@ -8,3 +8,9 @@ This project generates unique email addresses for students based on their names 
 - Pandas
 - Logging module
 - Google API key
+
+ ## Features
+- Generate email addresses in the format: `first_initial_lastname@gmail.com`
+- Ensure email uniqueness.
+- Detect and log names containing special characters.
+- Separate and log counts of male and female students.
