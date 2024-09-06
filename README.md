@@ -17,3 +17,8 @@ This project generates unique email addresses for students based on their names 
 - - Shuffle the data and save it in JSONL format.
 - Compare name similarity using LaBSE and save results in a JSON file.
 - Save results in multiple formats: CSV, TSV, JSON, JSONL.
+
+  ## Files and Directories
+- **`main.py`**: Main program logic to load data, generate email addresses, detect special characters, and shuffle data.
+- **`functions.py`**: Contains helper functions for email generation, special character detection, and file saving.
+- **`constraints.py`**: Holds project constraints, including the similarity threshold for LaBSE.
