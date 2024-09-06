@@ -14,3 +14,6 @@ This project generates unique email addresses for students based on their names 
 - Ensure email uniqueness.
 - Detect and log names containing special characters.
 - Separate and log counts of male and female students.
+- - Shuffle the data and save it in JSONL format.
+- Compare name similarity using LaBSE and save results in a JSON file.
+- Save results in multiple formats: CSV, TSV, JSON, JSONL.
