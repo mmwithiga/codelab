@@ -22,3 +22,6 @@ This project generates unique email addresses for students based on their names 
 - **`main.py`**: Main program logic to load data, generate email addresses, detect special characters, and shuffle data.
 - **`functions.py`**: Contains helper functions for email generation, special character detection, and file saving.
 - **`constraints.py`**: Holds project constraints, including the similarity threshold for LaBSE.
+- **`student_logs.log`**: Log file that records computations and results.
+- **`input_files/`**: Folder containing the input Excel files.
+- **`output_files/`**: Folder where the output CSV, TSV, JSON, and JSONL files are stored.
