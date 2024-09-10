@@ -2,7 +2,7 @@ import re
 import pandas as pd
 import logging
 
-# Initialize logging configuration
+# Initialize logging configuration to save logs to a file
 logging.basicConfig(filename='student_logs.log', level=logging.INFO)
 
 # Function to generate an email address from a student name
@@ -14,7 +14,7 @@ def generate_email(name):
         email = f"{parts[0][0]}{parts[-1]}@gmail.com".lower()
     return email
 
-# Ensure email addresses are unique
+# Ensure email addresses are unique in every user
 def generate_email_unique(name, emails):
     base_email = generate_email(name)
     if base_email not in emails:
@@ -25,7 +25,7 @@ def generate_email_unique(name, emails):
         emails[base_email] = count
         return f"{base_email.split('@')[0]}{count}@gmail.com"
 
-# Special character detection in names
+# Special character detection in names so as to avoid errors
 def has_special_characters(name):
     return bool(re.search(r"[^\w\s]", name))
 

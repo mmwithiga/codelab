@@ -1,3 +1,5 @@
+from spyder_kernels.utils.lazymodules import pandas
+
 
 import pandas as pd
 from functions import generate_email_unique, has_special_characters, save_as_csv_and_tsv, shuffle_and_save
